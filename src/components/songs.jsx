@@ -86,7 +86,7 @@ class Songs extends Component {
                             <Like liked={song.liked} onClick={() => this.handleLike(song)}/>
                         </td>
                         <td>
-                            <Link to={`/newSong/${songs._id}`}>
+                            <Link to={`/newSong/${song._id}`}>
                                 <button 
                                     className="btn btn-primary sm">
                                         <i class="fa fa-pencil-square-o" 
